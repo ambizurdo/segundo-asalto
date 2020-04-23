@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+	<link href="/normalize.css" rel="stylesheet">
+	<style>
+		header {
+			text-align: center;
+			text-shadow: 0 1px black;
+			background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fquemepongoqmp.files.wordpress.com%2F2014%2F08%2Fmortadelo-y-filemon.jpg%3Fw%3D300%26h%3D225&f=1&nofb=);
+			background-attachment: initial;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			color: rgba(0,128,255,1);
+
+		}
+		a {
+			color: rgba(255,255,255,1);
+		}
+		img {
+			margin: 36px 0px 0px 0px;
+			border: 10px solid black;
+			border-radius: 25px;
+		}
+		ul {
+			padding: 10px;
+			background: rgba(0,255,250,0,3);
+		}
+		li {
+			display: inline;
+			margin: 0px 10px 0px 10px;
+		}
+		article {
+			max-width: 1000px;
+			padding: 25px;
+			margin: 0 auto;
+			text-align: justify;
+		}
+		@media (max-width: 500px) {
+			h1 {
+				font-size: 35px;
+				padding: 5px;
+			}
+			li {
+				padding: 5px;
+				display: block;
+				background: rgba(0,0,0,0.5);
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.weirdspace.dk%2FFranciscoIbanez%2FGraphics%2FMortadelo.gif&f=1&nofb=1">
+		<h1>Ibañez Blog's</h1>
+		<ul>
+			<li><a href="https://www.eldiario.es/">Dibujos</a></li>
+			<li><a href="https://www.publico.es/">Bocetos</a></li>
+			<li><a href="https://www.cuartopoder.es/">Publicaciones</a></li>
+		</ul>
+	</header>
+	<article>
+		<h2>Adaptación al castellano</h2>
+		<p>En numerosos conflictos entre grupos con distintos idiomas o dialectos, uno de ellos ha utilizado shibboleths para descubrir a miembros ocultos del grupo opuesto. Los investigadores modernos utilizan el término shibboleth para todos esos usos, tanto si la gente implicada lo utiliza como si no.Así, en la matanza de haitianos ocurrida en República Dominicana hacia 1937, haitianos y dominicanos de raza negra eran distinguidos por la pronunciación de la palabra perejil, (para un haitiano es casi imposible disimular la r uvular del francés o el criollo haitiano) i.e. Masacre del Perejil.Un aspecto del fenómeno está en el hecho de que cuando se habla no se conoce el efecto creado en el interlocutor. Puede ocurrir que los miembros de una comunidad lingüística ignoren el hecho de que pronuncian un término de forma distintiva. </p>
+		<button>ME GUSTA</button>
+	</article>
+	<article>
+		<h3>Etimología</h3>
+		<p>Su origen es la palabra hebrea «šibbóleth» (שִׁבֹּלֶת) que significa literalmente ‘espiga’ o, según otras fuentes, ‘torrente’. Deriva de una historia del Antiguo testamento en la cual la pronunciación de esta palabra fue utilizada para distinguir a miembros de un grupo, la tribu de Efraím, cuyo dialecto carecía del sonido /ʃ/, a diferencia de otros, como por ejemplo los galaaditas, cuyo dialecto sí lo incluía.En el capítulo 12 del Libro de los jueces se narra lo acontecido después de que los habitantes de Galaad infligieran una derrota a la tribu de Efraím alrededor del 1370-1070 a. C.; cuando los efraimitas supervivientes intentaban cruzar el río Jordán se encontraron a sus enemigos vigilando los vados: para identificar y matar a los efraimitas, los galaaditas ponían a cada viajero una prueba simple: </p>
+		<button>ME GUSTA</button>
+	</article>
+	<article>
+		<h4>Uso actual</h4>
+		<p>Lo mismo se aplica en gran medida para la Unión Europea, cuya economía está fuertemente basada en los servicios, particularmente en los países de la periferia sur, como España, Portugal y Grecia, que carecen de una industria fuerte y son ampliamente dependientes del turismo. El impacto será incluso mayor en Italia, estancada desde hace dos décadas y, desde 2010, lejos de poder devolver su deuda. Así, los líderes de la UE tienen razón al entender la crisis del coronavirus como una amenaza existencial; lo cual es la causa de las intervenciones masivas del Banco Central Europeo (BCE) y de las acciones emprendidas por muchos de los Estados nación europeos, cuyos gastos derivados de la crisis han aflojado, en la vida práctica, el corsé de la austeridad que asfixiaba a Europ</p>
+		<button>ME GUSTA</button>
+	</article>
+	<script>
+		$("button").on("click", function() {
+			alert("Clicked!")
+		});
+	</script>
+</body>
