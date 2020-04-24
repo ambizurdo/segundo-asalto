@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+        <meta charset="utf-8">
 	<link href="/normalize.css" rel="stylesheet">
 	<style>
 		header {
